@@ -3,10 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CICD</title>
+    <title>CI/CD</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        h2 {
+            color: #34495e;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+    </style>
 </head>
 <body>
     <h1>CI/CD Pipeline</h1>
-    <p>Using git</p>
+    <p><strong>CI/CD</strong> stands for <em>Continuous Integration</em> and <em>Continuous Deployment/Delivery</em>. It is a method to frequently deliver apps to customers by introducing automation into the stages of app development.</p>
+
+    <h2>Key Concepts</h2>
+    <ul>
+        <li><strong>Continuous Integration (CI):</strong> Developers regularly merge their code changes into a central repository. Each merge triggers an automated build and test process.</li>
+        <li><strong>Continuous Delivery (CD):</strong> Code changes are automatically prepared for a release to production. Deployment is manual but easy.</li>
+        <li><strong>Continuous Deployment:</strong> Every change that passes automated tests is deployed automatically to production.</li>
+    </ul>
+
+    <h2>Popular Tools</h2>
+    <ul>
+        <li>GitHub Actions</li>
+        <li>GitLab CI/CD</li>
+        <li>Jenkins</li>
+        <li>CircleCI</li>
+        <li>Travis CI</li>
+        <li>Bitbucket Pipelines</li>
+    </ul>
+
+    <h2>Typical CI/CD Pipeline Stages</h2>
+    <ol>
+        <li><strong>Code:</strong> Developers write code and push to version control (e.g., Git).</li>
+        <li><strong>Build:</strong> The application is compiled or assembled.</li>
+        <li><strong>Test:</strong> Automated tests run to validate the code.</li>
+        <li><strong>Release:</strong> The build is packaged and prepared for deployment.</li>
+        <li><strong>Deploy:</strong> The application is deployed to staging or production environments.</li>
+        <li><strong>Monitor:</strong> Systems are monitored for issues and performance.</li>
+    </ol>
 </body>
 </html>
